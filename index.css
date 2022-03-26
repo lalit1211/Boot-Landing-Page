@@ -1,0 +1,63 @@
+body{
+    background-color: #3b575a;
+}
+/*todo Home Section */
+.header-image{
+    height: 60%;
+    transition: all .5s ease-in-out;
+}
+.header-image:hover{
+    transform: translateY(-10px);
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.192);
+}
+.button{
+    background-color: #82C09A;
+    color: white;
+}
+/*todo About Section */
+.about-container{
+    padding: 2px;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.about-container:hover{
+    background-color: #141b24;
+    box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.192);
+}
+/*todo Feature Section */
+.feature-box{
+    background-color: #3e6064;
+    transition: all .4s ease-in-out;
+}
+.feature-box:hover{
+    background-color: #2F3E46;
+    box-shadow: 2px 2px 3px 2px rgba(255, 255, 255, 0.192);
+}
+/*todo Prosuct Section */
+.product{
+    background-color: #45513E;
+}
+.item{
+    background-color: #6C7F62;
+    transition: all .4s ease-in-out;
+}
+.item:hover{
+    background-color: #45513E;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.192);
+}
+
+/*todo FQ Section */
+.faq{
+    background-color: #2F3E46;
+}
+/*todo Form Section */
+.form-container,.form-tex{
+    background-color: #1c373a;
+}
+.form-control{
+    background-color: transparent;
+}
+input{
+    height: 3rem;
+}
